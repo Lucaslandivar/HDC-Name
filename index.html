@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HDC Name</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="shortcut icon" href="img/bxs-id-card.svg" type="image/x-icon">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <script src="Js/script.js"></script>
+     <!-- Ícones -->
+     <link
+     rel="stylesheet"
+     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+     integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+     crossorigin="anonymous"
+     referrerpolicy="no-referrer"
+   />
+</head>
+<body>
+    <div class="container">
+      <div class="navbar-container">
+        <nav>
+          <a href="#">
+            <img src="img/hdchostlogo.png" alt="HDC Name" class="logo" />
+          </a>
+          <ul class="navbar-items">
+            <li>
+              <a href="#">Casa</a>
+            </li>
+            <li>
+              <a href="#">Nomes</a>
+            </li>
+            <li>
+              <a href="#">Contato</a>
+            </li>
+            <li>
+              <a href="#" class="default-btn">Entrar</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <main>
+        <div class="main-banner">
+          <h1>HDC Name</h1>
+          <p>O melhor serviço para criação de nomes de sites!</p>
+        </div>
+        <section class="services-container">
+          <ul>
+            <li>
+              <i class="fas fa-shield-alt"></i>
+              <h3>Originalidade</h3>
+              <p>
+                Sua marca deve ter um nome própio e original para se destacar entre as outras marcas 
+                do mercado, por isso que a HDC Name oferece o melhor sistema de criação de nomes 
+                originais e livre de direitos autorais.
+              </p>
+            </li>
+            <li>
+              <i class="fas fa-rocket"></i>
+              <h3>Performance</h3>
+              <p>
+                Demora menos de 30 segundos para finalizar com a criação e os direitos do novo 
+                nome da sua marca.
+              </p>
+            </li>
+            <li>
+              <i class="fas fa-comments"></i>
+              <h3>Suporte 24/7</h3>
+              <p>
+                Contamos com um time de profissionais capacitados e dispostos a atender qualquer 
+                necessidade ou resolver qualquer problema.
+              </p>
+            </li>
+          </ul>
+        </section>
+        <section class="searchdomain-container">
+          <h2>Qual nome você quer para a sua marca?</h2>
+          <p>Crie agora o nome da sua marca!</p>
+          <form>
+            <label for="keyword">Coloque uma palavra que defina sua marca:</label>
+            <input type="text" id="keyword" name="keyword">
+            <button type="button" onclick="generateName()">Criar Nome</button>
+          </form>
+          <p id="result"></p>
+        </section>
+        <section class="contact-container">
+          <h2>Mande uma mensagem</h2>
+          <p>
+            Envie a sua mensagem, em até 4 horas um especialista entrará em
+            contato
+          </p>
+          <form>
+            <input type="text" name="name" id="name" placeholder="Seu nome" />
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Seu e-mail"
+            />
+            <textarea
+              name="message"
+              id="message"
+              placeholder="Descreva o que você precisa ou o seu projeto..."
+            ></textarea>
+            <input type="submit" value="Enviar" />
+          </form>
+        </section>
+      </main>
+      <footer>
+        <ul id="footer-links">
+          <li><a href="#">Nome</a></li>
+          <li><a href="#">Sobre</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Ajuda</a></li>
+          <li><a href="#">API</a></li>
+          <li><a href="#">Privacidade</a></li>
+          <li><a href="#">Termos</a></li>
+          <li><a href="#">Principais Nomes</a></li>
+          <li><a href="#">Hashtags</a></li>
+          <li><a href="#">Localização</a></li>
+        </ul>
+      </nav>
+      <p id="copyright">&copy;2023 HDC Name</p>
+      </footer>
+    </div>
+  </body>
+</html>
